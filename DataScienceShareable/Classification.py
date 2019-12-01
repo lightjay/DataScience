@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
-
+# -*- coding: utf-8 -*-
 """
 This script provides a general framework for training a classification model
 """
 
+__author__ = "Josh Lloyd"
+__author_email__ = "joshslloyd@outlook.com"
+
+# std python library
+
+# 3rd party
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -12,6 +18,7 @@ from sklearn import model_selection, preprocessing, metrics
 from sklearn.metrics import confusion_matrix
 from sklearn.pipeline import Pipeline
 
+# local
 from DataScienceShareable import ClassifierPGs
 
 pd.set_option('display.max_rows', 5000)

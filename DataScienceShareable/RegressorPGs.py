@@ -1,9 +1,23 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+This module provides a fairly comprehensive library of regression models. The intent is to call them along with
+their associate parameter grids during a training using grid search for tuning hyperparamenters. This file is likely to
+be a continual work in progress.
+"""
 
+__author__ = "Josh Lloyd"
+__author_email__ = "joshslloyd@outlook.com"
+
+# std python library
+
+# 3rd party
 import numpy as np
 import xgboost as xgb
 from sklearn import linear_model, svm, ensemble, \
     gaussian_process, neighbors, neural_network, tree, cross_decomposition, isotonic, kernel_ridge
+
+# local
 
 """
 classifiers (27 in total) and Parameter Grids

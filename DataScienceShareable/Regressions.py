@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
-
+# -*- coding: utf-8 -*-
 """
 This script provides a template for training regression models
 """
 
+__author__ = "Josh Lloyd"
+__author_email__ = "joshslloyd@outlook.com"
+
+# std python library
+
+# 3rd party
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -11,6 +17,7 @@ import seaborn as sns
 from sklearn import model_selection, metrics, preprocessing
 from sklearn.pipeline import Pipeline
 
+# local
 from DataScienceShareable import RegressorPGs
 
 pd.set_option('display.max_rows', 5000)
